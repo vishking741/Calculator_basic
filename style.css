@@ -1,0 +1,106 @@
+      /*body*/
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7fc;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        width: 100vw;
+      }
+
+      /*calculator*/
+      #Calculator {
+        width: 31vw;
+        background-color: black;
+        border-right: 5px solid grey;
+      }
+      .display {
+        height: 20vh;
+        color: white;
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-bottom: 10px;
+        margin-right: 15px;
+      }
+      button {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        color: white;
+        background-color: #0b192c;
+        border: none;
+        font-size: 20px;
+        transition: all 0.2s ease-in-out;
+      }
+      button:active {
+        height: 80px;
+        width: 80px;
+        background-color: #1e3e62;
+      }
+      #equal {
+        border-radius: 4%;
+        width: 45%;
+        background-color: #ff6500;
+      }
+      .line1,
+      .line2,
+      .line3,
+      .line4,
+      .line5 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 14px;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      h2 {
+        width: 100%;
+        margin: 0px;
+        font-size: 37px;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      /*history*/
+      #history-section {
+        width: 69vw;
+        background-color: black;
+        color: #f4f7fc;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        border-bottom: 2px solid grey;
+      }
+      .history-display {
+        height: 87%;
+        width: 100%;
+        display: flex;
+      }
+      .text {
+        width: 100%;
+        scroll-behavior: smooth;
+      }
+      .changes {
+        width: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .history-element {
+        width: 90%;
+        height: 10%;
+        background-color: #0b192c;
+        color: #ff6500;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+      }
+      .para1,
+      .para2 {
+        margin: 5px;
+      }
