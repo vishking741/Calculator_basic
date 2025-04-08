@@ -16,7 +16,7 @@
         border-right: 5px solid grey;
       }
       .display {
-        height: 20vh;
+        height: 10vh;
         color: white;
         font-size: 50px;
         display: flex;
@@ -24,6 +24,10 @@
         align-items: end;
         margin-bottom: 10px;
         margin-right: 15px;
+        overflow-x: auto;
+        white-space: nowrap; 
+        display: block;
+        direction: rtl; 
       }
       button {
         height: 90px;
@@ -63,6 +67,7 @@
         color: white;
         padding: 10px;
         text-align: center;
+        margin-bottom: 10vh;
       }
       /*history*/
       #history-section {
@@ -104,3 +109,21 @@
       .para2 {
         margin: 5px;
       }
+      /*for scrollig CSS*/
+      .display::-webkit-scrollbar,
+      .text::-webkit-scrollbar {
+        height: 7px; 
+      }
+
+      .display::-webkit-scrollbar-thumb,
+      .text::-webkit-scrollbar-thumb {
+        background-color: #888;  
+        border-radius: 10px;
+      }
+
+      .display::-webkit-scrollbar-track,
+      .text::-webkit-scrollbar-track {
+       background: #1a1a1a;  
+      }
+
+
